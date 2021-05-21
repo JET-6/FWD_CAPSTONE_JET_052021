@@ -1,0 +1,108 @@
+/* styling for capstone */
+* {
+  padding: 10px;
+  margin: 10px;
+  margin-left: 5px;
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+  background: #edc0bf;
+  background: linear-gradient(90deg, #edc0bf 0,#c4caef 58%);
+}
+
+html {
+  align-items: center;
+  height: auto;
+  width: auto;
+}
+
+body {
+  align-content: center;
+  justify-content: center;
+  height: inherit;
+  width: inherit;
+  background: #edc0bf;
+  background: linear-gradient(90deg, #edc0bf 0,#c4caef 58%);
+  padding: 4.5rem;
+  margin: 20px;
+}
+
+#img {
+  background: no-repeat center center;
+  background-size: contain;
+  float: right;
+  height: 415px;
+  width: 100%;
+  text-align: justify left;
+  font-size: 50px;
+  color: white;
+  text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 10px #fff;
+}
+
+.container {
+  height: 1200px;
+  width: 800px;
+}
+
+.title {
+  background: rgba( 255, 0, 0, 0.15 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 0.0px );
+  -webkit-backdrop-filter: blur( 0.0px );
+  border-radius: 10px;
+}
+
+.top, .middle, .bottom {
+  height: 210px;
+  width: 500px;
+}
+
+.top {
+  float: left;
+  padding: 1rem;
+  border-radius: 1rem;
+  background: rgba(230, 255, 230, .15);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  align-content: center;
+}
+
+.middle {
+  float: right;
+  padding: 1rem;
+  border-radius: 1rem;
+  background: rgba(230, 255, 230, .15);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  align-content: center;
+}
+
+.bottom {
+  float: left;
+  padding: 1rem;
+  border-radius: 1rem;
+  background: rgba(230, 255, 230, .15);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  align-content: center;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 0;
+  margin-bottom: .5rem;
+  font-size: 1.2rem;
+  color: red;
+}
+
+button {
+  border: none;
+  border-radius: 1rem;
+  text-align: center;
+  background: rgba(180,0,0,.25);
+}
+
+.GO {
+  border: none;
+  background: rgba(0,180,0,.25);
+}

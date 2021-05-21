@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="skoden" href="skoden.php">
+    <title>CAPSTONE PROJECT</title>
+  </head>
+
+  <body>
+
+<div class="title">
+  <h1>Testing a MADLIBS style form, captures user input & HTML output</h1>
+    <p id="helloName"></p>
+    <p id="chosen"></p>
+</div>
+
+
+  <div id="img"></div>
+
+<br>
+<br>
+
+<!-- beginning of container with story sections -->
+<div class="container">
+
+    <div class="top">
+      <div class="sOne">
+
+          <h2>Intro</h2>
+          <p id="para1">
+            <!-- JS inline timing events, option to cancel out of quest -->
+            <button class="GO" onclick="weGo = setTimeout(partOne, 1000)">Let's begin!</button>
+            <button onclick="clearTimeout(weGo)">Or not?</button>
+          </p>
+
+      </div>
+    </div>
+
+<br>
+<br>
+
+    <div class="middle">
+      <div class="sTwo">
+
+          <h2>Crescendo</h2>
+          <p id="para2">
+            <button class="GO" onclick="weGo = setTimeout(partTwo, 1000)">Carry on?</button>
+            <button onclick="clearTimeout(weGo)">Nevermind!</button>
+          </p>
+
+      </div>
+    </div>
+
+<br>
+<br>
+
+    <div class="bottom">
+      <div class="sThree">
+
+          <h2>H.E.E</h2>
+          <p id="para3">
+            <button class="GO" onclick="weGo = setTimeout(partThree, 1000)">Almost there!</button>
+            <button onclick="clearTimeout(weGo)">Wait, no!</button>
+          </p>
+
+      </div>
+    </div>
+
+</div>
+<!-- end of container with story sections -->
+
+<script src="scripts.js"></script>
+<script src="inputs.js"></script>
+
+  </body>
+</html>
