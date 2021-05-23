@@ -40,6 +40,9 @@ body {
   float: right;
   height: 415px;
   width: 100%;
+}
+
+#chosen {  
   text-align: justify left;
   font-size: 50px;
   color: white;

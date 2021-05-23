@@ -10,7 +10,8 @@ function partOne() {
 nouns[0] = prompt("Please enter a persons name.");
 adjectives[0] = prompt("Please describe a person.");
 verbs[0] = prompt("First action!");
-document.getElementById('para1').innerHTML = (`Here will be some stuff including ${nouns[0]}, ${adjectives[0]}, and ${verbs[0]}`);
+
+document.getElementById('para1').innerHTML = (`It has been a long night. ${nouns[0]} has taken us through the ringer, again. Not unlike any other Tuesday night, but this time his ${adjectives[0]} antics have taken us too far. It is time to ${verbs[0]} and get the hell out of here.`);
 alert("Excellent!");
 }
 

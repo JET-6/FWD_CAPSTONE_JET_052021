@@ -21,17 +21,18 @@ function unChoice() {
 function choice() {
   // var for docqueryselector
   let pix = document.querySelector('#img');
+  let chose = document.querySelector('#chosen');
 
   // serious
   if (chooser == "serious") {
     console.log(`The ${chooser} begins.`)
-    pix.innerHTML = (`Another Monday, another pot of coffee...`);
+    chose.innerHTML = (`Another Monday, another pot of coffee...`);
     pix.style.backgroundImage = `url("images/AMcoffee.jpg")`
   }
   // silly
   else if (chooser == "silly") {
     console.log(`You have chosen ${chooser}.`)
-    pix.innerHTML = (`A monkey beckons you around a corner, smoking a cigarette and wearing a vest.`);
+    chose.innerHTML = (`A monkey beckons you around a corner, smoking a cigarette and wearing a vest.`);
     pix.style.backgroundImage = `url("images/vestMonkey.png")`;
 
   }
