@@ -96,8 +96,13 @@ h1 {
   width: 100%;
 }
 
-#chosen {
-  text-align: justify left;
+#helloName {
+  font-size: 55px;
+  font-weight: bolder;
+}
+
+#chosen, #helloName {
+  text-align: left;
   font-size: 50px;
   color: white;
   text-shadow: 0 0 2px #05FF00, 0 0 5px #05FF00, 0 0 10px #05FF00;

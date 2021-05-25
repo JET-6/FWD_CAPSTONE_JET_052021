@@ -22,18 +22,20 @@ function choice() {
   // var for docqueryselector
   let pix = document.querySelector('#img');
   let chose = document.querySelector('#chosen');
+  morning = `url("images/AMcoffee.jpg")`;
+  monkeySko = `url("images/vestMonkey.png")`;
 
   // serious
   if (chooser == "serious") {
     console.log(`The ${chooser} begins.`)
     chose.innerHTML = (`Another Monday, another pot of coffee...`);
-    pix.style.backgroundImage = `url("images/AMcoffee.jpg")`
+    pix.style.backgroundImage = morning;
   }
   // silly
   else if (chooser == "silly") {
     console.log(`You have chosen ${chooser}.`)
     chose.innerHTML = (`A monkey beckons you around a corner, smoking a cigarette and wearing a vest.`);
-    pix.style.backgroundImage = `url("images/vestMonkey.png")`;
+    pix.style.backgroundImage = monkeySko;
 
   }
 }
