@@ -115,6 +115,10 @@ h1 {
   margin-right: 10%;
 }
 
+.container:hover {
+  opacity: 20%;
+}
+
 .top, .middle, .bottom {
   height: 210px;
   width: 500px;
